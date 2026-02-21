@@ -1,0 +1,12 @@
+
+body{
+     font-family: "Nata Sans", sans-serif;
+}
+
+.active-link {
+  color: red; /* অথবা আপনার পছন্দের কালার */
+  font-weight: bold;
+}
+.normal-link {
+  color: black;
+}
