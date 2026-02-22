@@ -2,13 +2,13 @@
 import { HeroUIProvider } from "@heroui/system";
 import React from "react";
 import {Route , Router , Routes,BrowserRouter  } from "react-router";
-import HomePage from './Component/File/HomePages/HomePages';
-import MyNavbar from "./Component/File/MyNavbar"
-import Footer from "./Component/File/Footer"
-import EatDrink from "./Component/File/EatAndDrink/EatDrink";
-import CartHome from "./Component/File/Cart/CartHome";
-import ContactHome from "./Component/File/ContactSection/ContactHome";
-import ClubHome from "./Component/File/Club/ClubHome";
+import HomePage from './File/HomePages/HomePages';
+import MyNavbar from "./File/MyNavbar"
+import Footer from "./File/Footer"
+import EatDrink from "./File/EatAndDrink/EatDrink";
+import CartHome from "./File/Cart/CartHome";
+import ContactHome from "./File/ContactSection/ContactHome";
+import ClubHome from "./File/Club/ClubHome";
 
 
 
