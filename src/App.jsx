@@ -1,7 +1,7 @@
 
 import { HeroUIProvider } from "@heroui/system";
 import React from "react";
-import {Route , Router , Routes,BrowserRouter  } from "react-router";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import HomePage from './File/HomePages/HomePages';
 import MyNavbar from "./File/MyNavbar"
 import Footer from "./File/Footer"
