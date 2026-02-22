@@ -29,7 +29,7 @@ function Morden() {
                 {/* parent div */}
               <div className="flex flex-col md:flex-row w-full h-full md:h-fit overflow-y-auto md:overflow-visible">
                {/* left side */}
-                <div className="bg-[url('LoginImg.png')] bg-cover bg-center flex flex-col bg-no-repeat w-full md:w-1/3 p-8 text-white " >
+                <div className="bg-[url('/LoginImg.png')] bg-cover bg-center flex flex-col bg-no-repeat w-full md:w-1/3 p-8 text-white " >
 
                 <h1 className="text-center text-2xl m-5 font-bold ">Sign Up</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore nihil quasi corporis qui tempora enim sint non ducimus. Vel? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, laboriosam!</p>
