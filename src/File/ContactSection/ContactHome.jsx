@@ -8,7 +8,7 @@ import Accordions from './Accordions'
 function ContactHome() {
     return (
     <>
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden container mx-auto px-10 md:px-20 py-10 md:mt-10 justify-center '>
         <Contact/>
         <Card/>
         <Accordions/>
