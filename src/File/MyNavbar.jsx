@@ -27,7 +27,16 @@ function MyNavbar() {
 
   const [Islogin , SetLogin] = useState(false)
 
-  const MenuItem = ["Eat & Drink", "Club", "Things to do", "Account"];
+  const MenuItem2 = ["Eat & Drink", "Club", "Things to do", "Account"];
+
+  const MenuItem = [
+    <NavLink to="/" className="font-bold">Chills-Boy</NavLink>,
+    <NavLink to="/drink" className="font-bold">Eat & Drink</NavLink>,
+    <NavLink to="/Club" className="font-bold">Club</NavLink>,
+    <NavLink to="/contact" className="font-bold">Contact</NavLink>,
+    <NavLink  className="font-bold">Account</NavLink>,
+    
+  ];
 
   return (
     <>
@@ -102,7 +111,10 @@ function MyNavbar() {
         <div>
           <NavbarContent className="w-full " justify="end ">
           <NavbarItem className="hidden lg:flex"></NavbarItem>
-          <NavbarItem className="flex lg:hidden"><img src="cut.svg" alt="" /></NavbarItem>
+
+          <NavLink to="cart">
+            <NavbarItem className="flex lg:hidden"><img src="/cut.svg" alt="" /></NavbarItem>
+          </NavLink>
 
           <NavbarMenu>
             {MenuItem.map((item , i)=>(

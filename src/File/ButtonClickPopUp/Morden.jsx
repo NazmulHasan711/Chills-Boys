@@ -9,6 +9,7 @@ import {
 } from "@heroui/react";
 
 import { Input } from "@heroui/react";
+import { NavLink } from "react-router-dom";
 
 function Morden() {
 
@@ -20,7 +21,10 @@ function Morden() {
 
   return <>
   <div className="flex flex-wrap gap-3">
-    <Button variant="flat" onPress={handelChange}> <i class="fa-regular fa-face-grin"></i>Account</Button>
+    
+
+      <Button variant="flat" onPress={handelChange}> <i className="fa-regular fa-face-grin"></i>Account</Button>
+
   </div>
 
   <Modal isOpen={IsOpen} backdrop="blur" onClose={Close} size="5xl" placement="top" >
