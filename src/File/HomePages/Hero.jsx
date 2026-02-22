@@ -5,7 +5,7 @@ import {Autocomplete, AutocompleteItem, Button} from "@heroui/react"
 function Hero() {
     return (
     <>
-    <section className="bg-[url('hero.png')] w-full h-screen overflow-hidden bg-cover bg-center">
+    <section className="bg-[url('/hero.png')] w-full h-screen overflow-hidden bg-cover bg-center">
         <div className='md:w-[70%] px-10 md:px-20 py-10 md:mt-10 justify-start '>
             <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight'>Find amazing things to do anytime, anywhere in Lagos.</h1>
         </div> 
